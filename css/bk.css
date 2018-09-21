@@ -1,0 +1,17 @@
+.bkbk{
+    width: 70%;
+    border: 1px solid red;
+    margin: 2em auto;
+    height: 50em;
+}
+.bk_top{
+    width:98.2%;
+    height: 4em;
+    border: 1px solid blue;
+    line-height: 4em;
+    padding-left: 1em;
+}
+.bk_top a{
+    line-height: 4em;
+    font-size: 0.95em;
+}
