@@ -1,0 +1,350 @@
+*{
+	margin:0;
+	padding: 0;
+}
+@media screen and (min-width: 1161px){
+/*大图*/
+.banner{
+	  height: 400px;
+    width: 100%;
+    background: url(../img/jj/ab1.png) no-repeat center;
+    background-size: cover;
+    margin-top: 82px;
+    box-sizing: border-box;
+}
+/*公司简介*/
+.company_con_n{
+	    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.company_con_n .title{
+	    position: relative;
+    font-size: 40px;
+    color: #2C3036;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+}
+.company_con_n .title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #2C3036;
+    bottom: -22px;
+    left: 50%;
+    margin-left: -25px;
+}
+.company_con_n .company_con_des{
+	    width: 1080px;
+    margin: 40px auto 0;
+    font-size: 16px;
+    color: #66666B;
+    line-height: 28px;
+    text-align: justify;
+    overflow: hidden;
+}
+.deve_his{
+	    height: 1184px;
+    width: 100%;
+    min-width: 1080px;
+    background: url(../img/jj/map_01_03.jpg) no-repeat center;
+    background-size: cover;
+}
+.deve_his_step{
+	    height: 1184px;
+    width: 1080px;
+    margin: 0 auto;
+    min-width: 1080px;
+    background: url(../img/jj/ab2.png) no-repeat center;
+    background-size: cover;
+}
+.join_us{
+	    min-width: 1160px;
+    background: #F6F6F6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+#join_us{
+	    position: absolute;
+    top: -82px;
+}
+.join_us .title{
+	position: relative;
+    font-size: 40px;
+    color: #2C3036;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+}
+.join_us .title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #2C3036;
+    bottom: -22px;
+    left: 50%;
+    margin-left: -25px;
+}
+.join_con{
+	    width: 1160px;
+    padding: 10px 40px 40px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 60px;
+}
+.join_list_title{
+	 border-bottom: 3px solid #E8EBEF;
+    font-weight: bold;
+}
+.join_list_title .join_top {
+    background: none;
+}
+.join_top{
+	    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #66666B;
+    cursor: pointer;
+    position: relative;
+}
+.join_name{
+	width: 500px;
+}
+.fl{
+	 float: left;
+}
+.join_cate{
+	    width: 80px;
+    text-align: center;
+}
+.join_location {
+    width: 100px;
+    margin-left: 210px;
+    text-align: center;
+}
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+.join_list {
+    border-bottom: 1px solid #E8EBEF;
+    position: relative;
+}
+.join_top{
+	    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #66666B;
+    cursor: pointer;
+    position: relative;
+    background: url(../img/jj/about_add.png) no-repeat 1040px center;
+    background-size: 12px auto;
+}
+.join_list.curr .join_top {
+    background: #F6F6F6 url(../img/jj/about_minus.png) no-repeat 1040px center;
+    background-size: 12px auto;
+}
+.join_need {
+    width: 500px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #66666B;
+    line-height: 28px;
+    text-align: justify;
+    display: none;
+    padding-top: 30px;
+}
+/*联系我们*/
+.contact_us{
+	    height: 370px;
+    min-width: 1160px;
+    background: url(../img/jj/ab3.jpg) no-repeat center;
+    background-size: cover;
+}
+.contact_con{
+    width: 1160px;
+    margin: 0 auto;
+    height: 370px;
+}
+.contact_bg{
+	    width: 420px;
+    height: 300px;
+    background: rgba(44,48,54,.8);
+    float: right;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+.contact_title {
+    position: relative;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 70px;
+    }
+   .contact_title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+    bottom: -12px;
+    left: 0;
+}
+.contact_item {
+    font-size: 16px;
+    color: #fff;
+    line-height: 36px;
+}
+
+}
+@media screen and (max-width: 992px){
+	html{
+		font-size: 58.5938px;
+	}
+	body {
+    position: absolute;
+    left: 0;
+    width: 6.4rem;
+    transition: all ease-in .15s;
+    -webit-transition: all ease-in .15s;
+    -moz-transition: all ease-in .15s;
+    overflow-x: hidden;
+}
+	  .banner{
+		 height: 5.1rem;
+         width: 6.4rem;
+	    background: url(../img/jj/ab2.jpg) no-repeat center;
+	    background-size: cover;
+	    margin-top: .75rem;
+		}
+		.company_con_n {
+		    padding-top: .3rem;
+		    padding-bottom: .3rem;
+		}
+		.company_con_n .title{
+			    position: relative;
+		    font-size: .48rem;
+		    color: #2C3036;
+		    font-weight: bold;
+		    text-align: center;
+		    height: .5rem;
+		    line-height: .5rem;
+		    font-weight: normal;
+		}
+		.company_con_n .title:after {
+		    content: '';
+		    display: block;
+		    position: absolute;
+		    width: .7rem;
+		    height: .08rem;
+		    background-color: #2C3036;
+		    bottom: -.2rem;
+		    left: 50%;
+		    margin-left: -.35rem;
+		    font-weight: normal;
+		}
+		.company_con_des {
+		        width: 100%;
+		    padding: 0 .35rem;
+		    margin: .5rem auto 0;
+		    font-size: .16rem;
+		    color: #66666B;
+		    line-height: .32rem;
+		    text-align: justify;
+		    overflow: hidden;
+		}
+        .deve_his{
+                height: 7.9rem;
+            width: 6.4rem;
+            background: url(../img/jj/m_about_h_04.jpg) no-repeat center;
+            background-size: cover;
+        }
+        .join_us{
+            width: 100%;
+            background: #F6F6F6;
+            padding: .6rem .16rem;
+        }
+        .join_us .title{
+                position: relative;
+            font-size: .48rem;
+            color: #2C3036;
+            font-weight: bold;
+            text-align: center;
+            height: .5rem;
+            line-height: .5rem;
+            font-weight: normal;
+        }
+        .join_us .title:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: .7rem;
+            height: .08rem;
+            background-color: #2C3036;
+            bottom: -.2rem;
+            left: 50%;
+            margin-left: -.35rem;
+            font-weight: normal;
+        }
+        .join_con {
+            width: 100%;
+            padding: .18rem;
+            background: #fff;
+            margin-top: .4rem;
+        }
+        .join_top{
+                height: .5rem;
+            line-height: .5rem;
+            font-size: .18rem;
+            color: #66666B;
+            cursor: pointer;
+            position: relative;
+                background: none;
+        }
+        .join_list_title {
+            border-bottom: 3px solid #E8EBEF;
+        }
+        .fl {
+            float: left;
+        }
+
+        .join_name {
+            width: 2.4rem;
+        }
+       .join_cate {
+            width: .9rem;
+            text-align: center;
+        }
+        .join_location {
+            width: .9rem;
+            margin-left: .6rem;
+            text-align: center;
+        }
+        .join_need{
+                width: 90%;
+            font-size: .1rem;
+            color: #66666B;
+            line-height: .28rem;
+            text-align: justify;
+            display: none;
+            padding-top: .3rem;
+        }
+                .join_need>* {
+            font-size: .08rem;
+            font-weight: normal;
+        }
+}
