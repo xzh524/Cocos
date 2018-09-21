@@ -1,0 +1,28 @@
+$(function(){
+	$(".document-con-top").click(function(){
+		$(".document-con-top").css({
+			"color":"#000",
+			"background":"white"
+		});
+		$(".document-con-bottom").css({
+			"color":"white",
+			"background":"#343941"
+		});
+		$(".wd-sp").css({
+			"display":"block"
+		});
+	})
+	$(".document-con-bottom").click(function(){
+		$(".document-con-bottom").css({
+			"color":"#000",
+			"background":"white"
+		});
+		$(".document-con-top").css({
+			"color":"white",
+			"background":"#343941"
+		});
+		$(".wd-sp").css({
+			"display":"none"
+		});
+	})
+})
