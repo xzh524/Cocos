@@ -1,0 +1,591 @@
+.headerbg {
+  height: 30px;
+  background: #f5f5f5;
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  border: 0;
+  padding: 0 20px !important;
+  min-width: 1160px;
+}
+.headerbg .wrap {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  border: 0;
+  zoom: 1;
+  clear: both;
+  height: 30px;
+}
+.headerbg .wrap h1 {
+  float: left;
+  height: 30px;
+  font-weight: normal;
+  margin: 0;
+  font-size: 16px;
+}
+.headerbg .wrap h1 a {
+  text-decoration: none;
+  color: #292929;
+  font-family: "Microsoft Yahei";
+  font-size: 12px;
+  line-height: 30px;
+}
+.headerbg .wrap h1 a span {
+  font-size: 14px;
+  color: #292929;
+}
+.headerbg .wrap .box a {
+  margin-left: 10px;
+  float: right;
+  color: #666;
+  font-family: "Microsoft Yahei";
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 30px;
+}
+.headerbg .wrap .box span {
+  margin-left: 10px;
+  margin-top: 9px;
+  height: 12px;
+  border-left: 1px solid #cfcece;
+  float: right;
+}
+header {
+  top: 30px;
+  opacity: 0;
+  position: absolute;
+  z-index: -100;
+  transition: all ease-in 0.15s;
+  height: 82px;
+  width: 100%;
+  text-align: center;
+  background-color: #262B32;
+}
+header .head {
+  height: 82px;
+}
+header .head .head_container {
+  margin: 0 auto;
+  width: 1160px;
+  height: 82px;
+}
+header .head .head_container > a {
+  float: left;
+  position: relative;
+  top: 20px;
+}
+header .head .head_container .language {
+  float: right;
+  width: 26px;
+  height: 26px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 26px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #65A7EB;
+  position: relative;
+  top: 27px;
+}
+header .head .head_container .m-menu {
+  display: none;
+}
+header .head .head_container .nav {
+  float: right;
+  height: 82px;
+  line-height: 82px;
+}
+header .head .head_container .nav li {
+  float: left;
+  height: 72px;
+  text-align: center;
+}
+header .head .head_container .nav li a {
+  display: block;
+  width: 120px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+header .head .head_container .nav li a.current {
+  background-color: #1B2028;
+}
+header .head .head_container .nav li a:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom-color: #fff;
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+.banner {
+  position: relative;
+  min-width: 1160px;
+  height: 630px;
+  background: #3B5B8B url('http://www.cocos.com/wp-content/themes/cocos/img/banner-bg2.jpg') no-repeat center center;
+}
+.banner .swiper-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.banner .header-bottm-container {
+  margin: 0 auto;
+  width: 1160px;
+  height: 82px;
+}
+.banner .header-bottm-container > a {
+  float: left;
+  position: relative;
+  top: 20px;
+}
+.banner .header-bottm-container .language {
+  float: right;
+  width: 26px;
+  height: 26px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 26px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #65A7EB;
+  position: relative;
+  top: 27px;
+}
+.banner .header-bottm-container .nav {
+  position: relative;
+  z-index: 100;
+  float: right;
+  height: 82px;
+  line-height: 82px;
+}
+.banner .header-bottm-container .nav li {
+  width: 120px;
+  float: left;
+  height: 72px;
+  text-align: center;
+}
+.banner .header-bottm-container .nav li a {
+  color: #eee;
+  padding: 13px 3px;
+  text-transform: uppercase;
+  border-bottom: solid 2px transparent;
+  display: inline;
+  text-align: center;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  width: 120px;
+  font-size: 12px;
+}
+.banner .header-bottm-container .nav li a:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom-color: #fff;
+  display: inline;
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+.banner .banner-container {
+  position: relative;
+  z-index: 1;
+  width: 1160px;
+  height: 200px;
+  text-align: right;
+  margin: 134px auto 0 auto;
+}
+.banner .banner-container img {
+  opacity: 1;
+  transform: translate(0px, 0px);
+  display: block;
+  margin-left: 798px;
+  margin-bottom: 20px;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+}
+.banner .banner-container > a {
+  display: inline-block;
+  width: 165px;
+  height: 48px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 48px;
+  margin-left: 30px;
+}
+.banner .banner-container > a:hover {
+  text-decoration: none;
+  background: #2c3036;
+  border: 1px solid #2c3036;
+  color: #fff;
+}
+.banner .banner-container .show-ani {
+  opacity: 1;
+  transform: translate(0px, 0px);
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+}
+.cocos-creator {
+  min-width: 1160px;
+  width: 100%;
+  background: #FAFCFF;
+  text-align: center;
+  padding-top: 50px;
+}
+.cocos-creator .cocos-creator-container {
+  -webkit-perspective: 500;
+  width: 1160px;
+  margin: 0 auto;
+}
+.cocos-creator .cocos-creator-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: #2E3239;
+}
+.cocos-creator .cocos-creator-container h1 {
+  font-size: 38px;
+  color: #2E3239;
+  margin: 5px 0 20px;
+}
+.cocos-creator .cocos-creator-container h4 {
+  font-size: 18px;
+  color: #66666b;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+.cocos-creator .cocos-creator-container .myswiper {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.cocos-creator .cocos-creator-container .myswiper .swiper-button-left,
+.cocos-creator .cocos-creator-container .myswiper .swiper-button-right {
+  width: 360px;
+  height: 304px;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 500;
+}
+.cocos-creator .cocos-creator-container a {
+  display: block;
+  width: 188px;
+  height: 48px;
+  color: #2E3239;
+  border: 1px solid #2E3239;
+  text-align: center;
+  line-height: 48px;
+  font-size: 18px;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  margin: 50px auto;
+}
+.cocos-creator .cocos-creator-container a:hover {
+  text-decoration: none;
+  background: #2c3036;
+  border: 1px solid #2c3036;
+  color: #fff;
+}
+.cocos2d-x {
+  min-width: 1160px;
+  overflow: hidden;
+  width: 100%;
+  height: 630px;
+  background: #58A1F0 url('http://www.cocos.com/wp-content/themes/cocos/img/cocos2d-x-bg.jpg') center center;
+  text-align: center;
+}
+.cocos2d-x .cocos2d-x-container {
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  background: url('http://www.cocos.com/wp-content/themes/cocos/img/cocos2d-x-bg.png') center -10px;
+  width: 1160px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.cocos2d-x .cocos2d-x-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: #2E3239;
+}
+.cocos2d-x .cocos2d-x-container h1 {
+  font-size: 38px;
+  color: #2E3239;
+  margin: 5px 0 20px;
+}
+.cocos2d-x .cocos2d-x-container h4 {
+  margin-bottom: 70px;
+  font-size: 18px;
+  color: #66666b;
+  font-weight: normal;
+}
+.cocos2d-x img {
+  opacity: 0;
+  margin: 0 auto;
+}
+.cocos2d-x a {
+  color: #fff;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  display: block;
+  width: 188px;
+  height: 48px;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 48px;
+  font-size: 18px;
+  margin: 70px auto 0 auto;
+}
+.cocos2d-x a:hover {
+  text-decoration: none;
+  background: #2c3036;
+  border: 1px solid #2c3036;
+  color: #fff;
+}
+.hot-blog {
+  min-width: 1160px;
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+}
+.hot-blog .hot-blog-container {
+  width: 1160px;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+}
+.hot-blog .hot-blog-container > a {
+  display: block;
+  width: 188px;
+  height: 48px;
+  border: 1px solid #2E3239;
+  color: #2E3239;
+  font-size: 18px;
+  line-height: 48px;
+  text-align: center;
+  margin: 25px auto  0 auto;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+}
+.hot-blog .hot-blog-container > a:hover {
+  text-decoration: none;
+  background: #2c3036;
+  border: 1px solid #2c3036;
+  color: #fff;
+}
+.hot-blog .hot-blog-container h1 {
+  font-size: 40px;
+  color: #2E3239;
+  font-weight: normal;
+}
+.hot-blog .hot-blog-container .sub-hx {
+  width: 50px;
+  height: 5px;
+  background-color: #2E3239;
+  margin: 15px auto;
+}
+.hot-blog .hot-blog-container ul {
+  display: inline-block;
+}
+.hot-blog .hot-blog-container ul li {
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  float: left;
+  position: relative;
+  margin: 25px 0;
+}
+.hot-blog .hot-blog-container ul li:nth-child(2),
+.hot-blog .hot-blog-container ul li:nth-child(5) {
+  margin: 25px;
+}
+.hot-blog .hot-blog-container ul li a {
+  height: 220px;
+  display: block;
+  width: 370px;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+.hot-blog .hot-blog-container ul li a:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.hot-blog .hot-blog-container ul li a:hover div {
+  top: 0;
+  padding-top: 70px;
+}
+.hot-blog .hot-blog-container ul li a img {
+  width: 370px;
+  height: auto;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  transform-origin: center;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.hot-blog .hot-blog-container ul li a div {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 25px;
+  height: 220px;
+  width: 370px;
+  position: relative;
+  z-index: 10;
+  top: 155px;
+  transition: all ease-in 0.3s;
+}
+.hot-blog .hot-blog-container ul li a div h2 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.hot-blog .hot-blog-container ul li a div p {
+  color: #fff;
+  font-size: 12px;
+}
+.partner {
+  overflow: hidden;
+  min-width: 1160px;
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+}
+.partner .partner-container {
+  width: 1160px;
+  margin: 0 auto;
+  text-align: center;
+}
+.partner .partner-container h1 {
+  font-size: 40px;
+  color: #2E3239;
+  font-weight: normal;
+}
+.partner .partner-container .sub-hx {
+  width: 50px;
+  height: 5px;
+  background-color: #2E3239;
+  margin: 15px auto;
+}
+.partner .partner-container ul {
+  display: inline-block;
+}
+.partner .partner-container ul li {
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.partner .partner-container ul li a {
+  display: block;
+  width: 200px;
+  height: 110px;
+  background: url('http://www.cocos.com/wp-content/themes/cocos/img/partner.png') no-repeat left top;
+}
+.partner .partner-container ul li a:hover {
+  background: url('http://www.cocos.com/wp-content/themes/cocos/img/partner-h.png') no-repeat left top;
+}
+.partner .partner-container ul li:nth-child(2) a {
+  background-position: -240px 0;
+}
+.partner .partner-container ul li:nth-child(2) a:hover {
+  background-position: -240px 0;
+}
+.partner .partner-container ul li:nth-child(3) a {
+  background-position: -480px 0;
+}
+.partner .partner-container ul li:nth-child(3) a:hover {
+  background-position: -480px 0;
+}
+.partner .partner-container ul li:nth-child(4) a {
+  background-position: -720px 0;
+}
+.partner .partner-container ul li:nth-child(4) a:hover {
+  background-position: -720px 0;
+}
+.partner .partner-container ul li:nth-child(5) {
+  margin-right: 0;
+}
+.partner .partner-container ul li:nth-child(5) a {
+  background-position: -960px 0;
+}
+.partner .partner-container ul li:nth-child(5) a:hover {
+  background-position: -960px 0;
+}
+.partner .partner-container ul li:nth-child(6) a {
+  background-position: 0 -150px;
+}
+.partner .partner-container ul li:nth-child(6) a:hover {
+  background-position: 0 -150px;
+}
+.partner .partner-container ul li:nth-child(7) a {
+  background-position: -240px -150px;
+}
+.partner .partner-container ul li:nth-child(7) a:hover {
+  background-position: -240px -150px;
+}
+.partner .partner-container ul li:nth-child(8) a {
+  background-position: -480px -150px;
+}
+.partner .partner-container ul li:nth-child(8) a:hover {
+  background-position: -480px -150px;
+}
+.partner .partner-container ul li:nth-child(9) a {
+  background-position: -720px -150px;
+}
+.partner .partner-container ul li:nth-child(9) a:hover {
+  background-position: -720px -150px;
+}
+.partner .partner-container ul li:nth-child(10) {
+  margin-right: 0;
+}
+.partner .partner-container ul li:nth-child(10) a {
+  background-position: -960px -150px;
+}
+.partner .partner-container ul li:nth-child(10) a:hover {
+  background-position: -960px -150px;
+}
+/*# sourceMappingURL=index.css.map */
