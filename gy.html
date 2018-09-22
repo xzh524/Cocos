@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/about.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"/> -->
     <link rel="stylesheet" type="text/css" href="css/yheader.css"/>
 </head>
 <body>
@@ -241,6 +241,42 @@ Cocos 目前在全球拥有 110 万的注册开发者，30 万的月活跃开发
 	              <p>3.熟悉游戏引擎常用资源（如纹理、模型、音频等）格式的导入和优化。</p>
 	            </ul>
 	          </li>
+	          <li> <a href="javascript:;" class="afinve"><span>Android开发工程师</span> <span>技术顾问</span> <span class="">厦门、深圳</span> <span class="arrow"></span> </a>
+	            <ul class="sub-menu">
+	              <strong>岗位职责：</strong>
+	              <p>1.基于 js开发编辑器中的资源数据库（Asset Database）</p>
+	              <p>2.和开发团队一起讨论编辑器底层技术方案</p>
+	              <strong>任职要求：</strong>
+	              <p>1. 具有计算机，数学或相关学科本科学历；</p>
+	              <p>2.至少熟悉一种编程语言；</p>
+	              <p>3.熟悉 Cocos Creator 或 Unity3D 或 Unreal Engine；</p>
+	              <p>4.有极强的责任心，有代码洁癖；</p>
+	              <p>5. 有刨根问底的精神，学习能力强，充满好奇心，关注技术发展方向；</p>
+	              <p>6. 具备英文文档阅读能力。</p>
+	              <strong>优先条件：</strong>
+	              <p>1. 熟悉 JavaScript、TypeScript、Node.js、Electron 之一；</p>
+	              <p>2.熟悉 Unity3D 资源导入流程；</p>
+	              <p>3.熟悉游戏引擎常用资源（如纹理、模型、音频等）格式的导入和优化。</p>
+	            </ul>
+	          </li>
+	          <li> <a href="javascript:;" class="afinve"><span>Android开发工程师</span> <span>技术顾问</span> <span class="">厦门、深圳</span> <span class="arrow"></span> </a>
+	            <ul class="sub-menu">
+	              <strong>岗位职责：</strong>
+	              <p>1.基于 js开发编辑器中的资源数据库（Asset Database）</p>
+	              <p>2.和开发团队一起讨论编辑器底层技术方案</p>
+	              <strong>任职要求：</strong>
+	              <p>1. 具有计算机，数学或相关学科本科学历；</p>
+	              <p>2.至少熟悉一种编程语言；</p>
+	              <p>3.熟悉 Cocos Creator 或 Unity3D 或 Unreal Engine；</p>
+	              <p>4.有极强的责任心，有代码洁癖；</p>
+	              <p>5. 有刨根问底的精神，学习能力强，充满好奇心，关注技术发展方向；</p>
+	              <p>6. 具备英文文档阅读能力。</p>
+	              <strong>优先条件：</strong>
+	              <p>1. 熟悉 JavaScript、TypeScript、Node.js、Electron 之一；</p>
+	              <p>2.熟悉 Unity3D 资源导入流程；</p>
+	              <p>3.熟悉游戏引擎常用资源（如纹理、模型、音频等）格式的导入和优化。</p>
+	            </ul>
+	          </li>
 	          <li> <a href="javascript:;" class="afinve"><span>销售</span> <span>销售中心</span> <span class="">厦门</span> <span class="arrow"></span> </a>
 	            <ul class="sub-menu">
 	              <strong>岗位职责：</strong>
@@ -323,29 +359,7 @@ Cocos 目前在全球拥有 110 万的注册开发者，30 万的月活跃开发
 		<div class="ybom">2017 @ Cocos.com 闽ICP备14002653号-6</div>
 	</div>
 	<script src="lib/jquery-1.8.3.min.js"></script> 
-	<script>
-		$(function(){
-    // nav收缩展开
-     $('.navMenu li a').on('click',function(){
-			 var parent = $(this).parent().parent();
-			 var labeul =$(this).parent("li").find(">ul")	 
-             if ($(this).parent().hasClass('open') == false) {
-				   parent.find('ul').slideUp(300);
-				   parent.find("li").removeClass("open")
-				   parent.find('li a').removeClass("active").find(".arrow").removeClass("open")
-                  $(this).parent("li").addClass("open").find(labeul).slideDown(300);
-				  $(this).addClass("active").find(".arrow").addClass("open")
-            }else{
-				 $(this).parent("li").removeClass("open").find(labeul).slideUp(300);
-				  if($(this).parent().find("ul").length>0){
-					$(this).removeClass("active").find(".arrow").removeClass("open")
-				  }else{
-					$(this).addClass("active") 
-				  }
-            }
-      
-    });
-});
-	</script>
+	<script src="js/gy.js"></script>
+	<script src="js/haf.js"></script>
 </body>
 </html>
