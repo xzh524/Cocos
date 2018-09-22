@@ -1,20 +1,24 @@
 *{
-	margin:0;
+	margin: 0;
 	padding: 0;
 }
-@media screen and (min-width: 1161px){
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
 /*大图*/
 .banner{
-	  height: 400px;
+	 height: 400px;
     width: 100%;
     background: url(../img/jj/ab1.png) no-repeat center;
     background-size: cover;
     margin-top: 82px;
-    box-sizing: border-box;
 }
 /*公司简介*/
 .company_con_n{
-	    padding-top: 50px;
+	  padding-top: 50px;
     padding-bottom: 60px;
 }
 .company_con_n .title{
@@ -38,8 +42,8 @@
     left: 50%;
     margin-left: -25px;
 }
-.company_con_n .company_con_des{
-	    width: 1080px;
+.company_con_des {
+    width: 71%;
     margin: 40px auto 0;
     font-size: 16px;
     color: #66666B;
@@ -47,34 +51,32 @@
     text-align: justify;
     overflow: hidden;
 }
+/*大图2*/
 .deve_his{
 	    height: 1184px;
     width: 100%;
-    min-width: 1080px;
+    /*min-width: 1080px;*/
     background: url(../img/jj/map_01_03.jpg) no-repeat center;
     background-size: cover;
 }
 .deve_his_step{
-	    height: 1184px;
-    width: 1080px;
+   height: 1184px;
+    width: 71%;
     margin: 0 auto;
-    min-width: 1080px;
+    /*min-width: 1080px;*/
     background: url(../img/jj/ab2.png) no-repeat center;
     background-size: cover;
 }
-.join_us{
-	    min-width: 1160px;
+/*加入我们*/
+.join{
+	  width:100%;
     background: #F6F6F6;
     padding-top: 60px;
     padding-bottom: 60px;
     position: relative;
 }
-#join_us{
-	    position: absolute;
-    top: -82px;
-}
-.join_us .title{
-	position: relative;
+.join .titles{
+	    position: relative;
     font-size: 40px;
     color: #2C3036;
     font-weight: bold;
@@ -83,7 +85,7 @@
     line-height: 50px;
     font-weight: normal;
 }
-.join_us .title:after {
+.join .titles:after {
     content: '';
     display: block;
     position: absolute;
@@ -94,20 +96,17 @@
     left: 50%;
     margin-left: -25px;
 }
-.join_con{
-	    width: 1160px;
+.navMenubox {   
+   width: 80%;
     padding: 10px 40px 40px;
     margin: 0 auto;
     background: #fff;
     margin-top: 60px;
-}
-.join_list_title{
-	 border-bottom: 3px solid #E8EBEF;
+  }
+.navMenubox  .title{
+    border-bottom: 3px solid #E8EBEF;
     font-weight: bold;
 }
-.join_list_title .join_top {
-    background: none;
-}
 .join_top{
 	    height: 50px;
     line-height: 50px;
@@ -116,72 +115,111 @@
     color: #66666B;
     cursor: pointer;
     position: relative;
-}
-.join_name{
-	width: 500px;
 }
 .fl{
-	 float: left;
+	float: left;
+}
+.join_name{
+    width: 40%;
+    padding-left: 5px;
 }
 .join_cate{
-	    width: 80px;
-    text-align: center;
+	width: 20%;
 }
-.join_location {
-    width: 100px;
-    margin-left: 210px;
-    text-align: center;
+.join_location{
+	width: 20%;
 }
-.clear {
-    clear: both;
-    height: 0;
-    line-height: 0;
-    font-size: 0;
+
+/*大盒子*/
+.navMenu-top {
+	 padding: 10px; 
+	 color: #fff;
+  border-bottom:1px solid rgba(255,255,255,.1)
+   }
+.navMenu> li span{
+  display: inline-block;
 }
-.join_list {
-    border-bottom: 1px solid #E8EBEF;
-    position: relative;
+.navMenu> li span:nth-child(1){
+      width: 40%;
+      padding-left: 5px
 }
-.join_top{
-	    height: 50px;
+.navMenu> li span:nth-child(2){
+      width: 20%;
+}
+.navMenu> li span:nth-child(3){
+      width: 20%;
+}
+.navMenu> li span.arrow{
+         width: 10%;
+    vertical-align: middle;
+    height: 40px;
+    margin-top: 25px;
     line-height: 50px;
-    padding-left: 20px;
     font-size: 16px;
     color: #66666B;
     cursor: pointer;
     position: relative;
-    background: url(../img/jj/about_add.png) no-repeat 1040px center;
+    background: url(../img/jj/about_add.png) no-repeat;
+}
+.navMenu> li { 
+    display: block;
+    border-bottom: 1px solid #f5f5f5;
+}
+.navMenu>li>a { 
+   display: block;
+   overflow: hidden;
+   padding-left: 0px;
+   line-height: 40px; 
+   color: #66666B;
+    transition: all .3s;
+     position: relative; 
+    font-size: 17px; 
+}
+
+.navMenu li a .arrow.open { 
+	    background:url(../img/jj/about_minus.png) no-repeat;
     background-size: 12px auto;
 }
-.join_list.curr .join_top {
-    background: #F6F6F6 url(../img/jj/about_minus.png) no-repeat 1040px center;
+.navMenu>li>a.active, .navMenu>li>a:hover { 
+	 background: #F6F6F6;
     background-size: 12px auto;
 }
-.join_need {
-    width: 500px;
-    padding-bottom: 30px;
+.navMenu>li>ul.sub-menu {
+   display: none;    
+   padding-bottom: 30px;
     padding-left: 20px;
     font-size: 14px;
     color: #66666B;
     line-height: 28px;
     text-align: justify;
     display: none;
-    padding-top: 30px;
+    padding-top: 30px; 
+}
+.navMenu>li>ul.sub-menu  p{
+	text-align: left;
+}
+.navMenu>li>ul.sub-menu li>a { 
+	display: block; 
+	font-size: 16px;
+	 line-height: 36px;
+	  padding-left: 20px; 
+	  color: #ABB1B7; 
+	  clear: both;
 }
 /*联系我们*/
 .contact_us{
-	    height: 370px;
-    min-width: 1160px;
+	  height: 100%;
+    width: 100%;
     background: url(../img/jj/ab3.jpg) no-repeat center;
     background-size: cover;
 }
 .contact_con{
-    width: 1160px;
+    width: 80%;
     margin: 0 auto;
     height: 370px;
 }
 .contact_bg{
-	    width: 420px;
+	    width: 40%;
     height: 300px;
     background: rgba(44,48,54,.8);
     float: right;
@@ -209,142 +247,33 @@
     color: #fff;
     line-height: 36px;
 }
-
-}
 @media screen and (max-width: 992px){
-	html{
-		font-size: 58.5938px;
-	}
-	body {
-    position: absolute;
-    left: 0;
-    width: 6.4rem;
-    transition: all ease-in .15s;
-    -webit-transition: all ease-in .15s;
-    -moz-transition: all ease-in .15s;
-    overflow-x: hidden;
+	.banner{
+	 height:500px;
+    width: 100%;
+    background: url(../img/jj/ab2.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 82px;
+  }
+  .deve_his_step{
+   height: 1184px;
+    width: 100%;
+    margin: 0 auto;
+    background: url(../img/jj/m_about_h_04.jpg) no-repeat center;
+    background-size: cover;
 }
-	  .banner{
-		 height: 5.1rem;
-         width: 6.4rem;
-	    background: url(../img/jj/ab2.jpg) no-repeat center;
-	    background-size: cover;
-	    margin-top: .75rem;
-		}
-		.company_con_n {
-		    padding-top: .3rem;
-		    padding-bottom: .3rem;
-		}
-		.company_con_n .title{
-			    position: relative;
-		    font-size: .48rem;
-		    color: #2C3036;
-		    font-weight: bold;
-		    text-align: center;
-		    height: .5rem;
-		    line-height: .5rem;
-		    font-weight: normal;
-		}
-		.company_con_n .title:after {
-		    content: '';
-		    display: block;
-		    position: absolute;
-		    width: .7rem;
-		    height: .08rem;
-		    background-color: #2C3036;
-		    bottom: -.2rem;
-		    left: 50%;
-		    margin-left: -.35rem;
-		    font-weight: normal;
-		}
-		.company_con_des {
-		        width: 100%;
-		    padding: 0 .35rem;
-		    margin: .5rem auto 0;
-		    font-size: .16rem;
-		    color: #66666B;
-		    line-height: .32rem;
-		    text-align: justify;
-		    overflow: hidden;
-		}
-        .deve_his{
-                height: 7.9rem;
-            width: 6.4rem;
-            background: url(../img/jj/m_about_h_04.jpg) no-repeat center;
-            background-size: cover;
-        }
-        .join_us{
-            width: 100%;
-            background: #F6F6F6;
-            padding: .6rem .16rem;
-        }
-        .join_us .title{
-                position: relative;
-            font-size: .48rem;
-            color: #2C3036;
-            font-weight: bold;
-            text-align: center;
-            height: .5rem;
-            line-height: .5rem;
-            font-weight: normal;
-        }
-        .join_us .title:after {
-            content: '';
-            display: block;
-            position: absolute;
-            width: .7rem;
-            height: .08rem;
-            background-color: #2C3036;
-            bottom: -.2rem;
-            left: 50%;
-            margin-left: -.35rem;
-            font-weight: normal;
-        }
-        .join_con {
-            width: 100%;
-            padding: .18rem;
-            background: #fff;
-            margin-top: .4rem;
-        }
-        .join_top{
-                height: .5rem;
-            line-height: .5rem;
-            font-size: .18rem;
-            color: #66666B;
-            cursor: pointer;
-            position: relative;
-                background: none;
-        }
-        .join_list_title {
-            border-bottom: 3px solid #E8EBEF;
-        }
-        .fl {
-            float: left;
-        }
-
-        .join_name {
-            width: 2.4rem;
-        }
-       .join_cate {
-            width: .9rem;
-            text-align: center;
-        }
-        .join_location {
-            width: .9rem;
-            margin-left: .6rem;
-            text-align: center;
-        }
-        .join_need{
-                width: 90%;
-            font-size: .1rem;
-            color: #66666B;
-            line-height: .28rem;
-            text-align: justify;
-            display: none;
-            padding-top: .3rem;
-        }
-                .join_need>* {
-            font-size: .08rem;
-            font-weight: normal;
-        }
+.company_con_des{
+	width: 80%;
+	margin: 37px auto 0;
+	font-size: 12px;
+}
+.navMenubox{
+	width:90%;
+}
+.navMenu>li>ul.sub-menu strong{
+	font-size: 10px;
+}
+.navMenu>li>ul.sub-menu p{
+	font-size: 9px;
+}
 }
