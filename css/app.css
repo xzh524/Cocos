@@ -26,3 +26,175 @@ body:before{
 	content:'';
 	display: table;
 }
+.yheaderbg{
+	height: 30px;
+	background: #f5f5f5;
+	font-size: 14px;
+	padding: 0 20px !important;
+}
+.yheaderbg .warp{
+	height: 30px;
+	margin: 0 auto;
+	position: relative;
+}
+.yheaderbg .warp h1{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	margin: 0;
+	font-size: 13px;
+}
+.yheaderbg .warp div{
+	float: right;
+}
+.yheaderbg .warp div a{
+	margin-left: 10px;
+	float: right;
+	color: #666;
+	font-family: "Microsoft Yahei";
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 30px;
+}
+.yheaderbg .warp div a:hover {
+	text-decoration: none;
+	background: none;
+	color: #2d97f9;
+}
+.yheaderbg .warp span{
+	float: right;
+	margin-left: 10px;
+	margin-top: 9px;
+	height: 12px;
+	border-left: 1px solid #cfcece
+}
+.fix-top{
+	position: fixed;
+	top: 30px;
+	z-index: 100;
+	height: 82px;
+	width: 100%;
+	text-align: center;
+	background-color: #262B32;
+}
+.yheader{
+	height: 82px;
+}
+.yheader .ycenter{
+	margin: 0 auto;
+	width: 1160px;
+	height: 82px;
+}
+.ylogo{
+	float: left;
+	position: relative;
+	top: 20px;
+}
+.language{
+	float: right;
+	width: 26px;
+	height: 26px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 26px;
+	color: #fff;
+	border-radius: 50%;
+	background-color: #65A7EB;
+	position: relative;
+	top: 27px;
+}
+.ynav{
+	float: right;
+	height: 82px;
+	line-height: 82px
+}
+.ynav li{
+	float: left;
+	height: 72px;
+	text-align: center;
+}
+.ynav li a{
+	display: block;
+	width: 120px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+.ynav li a:hover {
+	display: block;
+	text-decoration: none;
+	background-color: #191919;
+}
+.yfoot{
+	min-width: 1160px;
+	background: #2E3239;
+	color: #fff;
+	width: 100%;
+	height: 265px;
+	margin-top: 50px;
+}
+.yfoot .bah{
+	width: 1160px;
+	margin: 0 auto;
+	height: 238px;
+}
+.yfoot .bah ul{
+	float: left;
+	width: 170px;
+	margin-top: 50px;
+}
+.yfoot .bah ul:last-child {
+	width: 240px;
+}
+.yfoot .bah ul li{
+	margin-bottom: 14px;
+}
+.yfoot .bah ul li:nth-child(1) a {
+	color: #fff;
+	font-size: 18px;
+	cursor: default;
+}
+.yfoot .bah ul li a{
+	display: block;
+	color: #818285;
+	font-size: 14px;
+}
+.ycontct {
+	height: 38px;
+}
+.ycontct a{
+	float: left;
+	width: 38px;
+	height: 38px;
+	margin-right: 20px;
+	background: url('http://www.cocos.com/wp-content/themes/cocos/img/contact.png') no-repeat top left;
+}
+.ycontct .wechat{
+	background-position: -57px 0;
+}
+.ycontct .qq{
+	background-position: -114px 0;
+}
+.ycontct .wechat:hover .wet{
+	display: block;
+}
+.ycontct .qq:hover .qqt{
+	display: block;
+}
+.ycontct a img {
+	position: relative;
+	top: -127px;
+	left: 50%;
+	margin-left: -60px;
+	display: none;
+}
+.yfoot .ybom{
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	height: 27px;
+	line-height: 27px;
+	color: #696A6D;
+	background-color: #2B2E34;
+}
