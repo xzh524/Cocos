@@ -1,5 +1,5 @@
 .bkbk{
-    width: 90%;
+    width: 70%;
     /* border: 1px solid red; */
     margin: 2em auto;
     height: 63em;
@@ -10,6 +10,7 @@
     /* border: 1px solid blue; */
     line-height: 4em;
     padding-left: 1em;
+    margin-top: 7em;
 }
 .bk_top a{
     line-height: 4em;
@@ -19,12 +20,16 @@
     width:87%;
     /* border: 1px solid green; */
     float: left;
-    height: 56em;
+    height: 64em;
+    position: relative;
 }
 .bk_content .bk_content_left_list{
     height: 56em;
     width: 72%;
     float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .bk_content .bk_content_left_list ul{
     height: 56em;
@@ -61,12 +66,52 @@
     display:inline-block;
     width: 88%;
 }
+#bk_content_nav{
+    width: 39em;
+    height: 5em;
+    float: left;
+    margin: 0 auto;
+    position: absolute;
+    top: 58em;
+    left: 20%;
+}
+#bk_content_nav a{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+#bk_content_nav a.cur{
+    background: #65A7EB;
+    color: white;
+}
+#bk_content_nav a.controlBtn{
+    width: 70px;
+}
+#bk_content_nav a.dian{
+    background:none;
+    box-shadow: none;
+    margin: 0;
+    color:red;
+    position: relative;
+    left: -3px;
+}
 .bk_content_right{
     float: right;
     width: 24.5%;
     border-left: 1px solid lavender;
     padding: 1em 0em 0em 1em;
-    font-family: "微软雅黑"
+    font-family: "微软雅黑";
+    position: absolute;
+    top: 3em;
+    right: 0em;
 }
 .bk_content_right .bk_content_right1{
     height: 5em;
@@ -147,3 +192,24 @@
     color: gray;
     font-size: 15px;
 }
+@media screen and (max-width: 960px) {
+    body{
+        width: 100%;
+    }
+    .bk_content_right{
+        display: none;
+    }
+    #bk_content_nav{
+        display: none;
+    }
+    .bk_content{
+        width: 760px;
+
+    }
+    .bk_content .bk_content_left_list{
+        width:100%;
+    }
+}
+
+
+
