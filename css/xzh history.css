@@ -1,0 +1,77 @@
+.bread {
+    margin: 30px auto;
+    margin-top: 130px;
+    font-size: 14px;
+    color: #6E6E73;
+    width: 1160px;
+}
+.bread a:first-child {
+    background: url(../img/icon-home.jpg) no-repeat left center;
+    padding-left: 20px;
+}
+.download-history {
+    width: 1160px;
+    margin: 0 auto;
+    padding-left: 200px;
+}
+.download-history ul {
+    float: left;
+    width: 368px;
+    min-height: 600px;
+    background-color: #F7F7F7;
+    text-align: center;
+    margin-bottom: 45px;
+    list-style: none;
+}
+.download-history ul:last-child {
+    float: left;
+    width: 368px;
+    min-height: 600px;
+    background-color: #F7F7F7;
+    text-align: center;
+    margin-bottom: 45px;
+    list-style: none;
+    position: relative;
+    top: 0;
+    left: 30px;
+}
+.download-history ul h1 {
+    font-family: helvetica;
+    font-size: 24px;
+    color: #a9a9a9;
+    padding: 25px 0;
+}
+.download-history ul li:nth-child(2) {
+    height: 235px;
+    width: 368px;
+    background: #F1F1F2 url(../img/download1.png) no-repeat center center;
+}
+.download-history ul:last-child li:nth-child(2) {
+    height: 235px;
+    width: 368px;
+    background: #F1F1F2 url(../img/download2.png) no-repeat center center;
+}
+.download-history a {
+    display: block;
+    width: 321px;
+    height: 48px;
+    margin: 0 auto;
+    border-bottom: 1px dotted #DADADA;
+    line-height: 48px;
+}
+a {
+    color: #313131;
+    text-decoration: none;
+}
+.download-history a span {
+    float: left;
+    color: #65A7EB;
+    font-size: 18px;
+}
+.download-history a p {
+    float: right;
+    background: url(../img/history.png) no-repeat left center;
+    padding-left: 20px;
+    color: #66666B;
+    font-size: 14px;
+}
