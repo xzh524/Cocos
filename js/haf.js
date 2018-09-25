@@ -9,6 +9,5 @@
 			}else if(bd.scrollTop==0){
 				nav.style.top = "30px";
 			}
-			
 		}
 }())
