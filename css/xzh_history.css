@@ -1,0 +1,128 @@
+.bread {
+    margin: 30px auto;
+    margin-top: 130px;
+    font-size: 14px;
+    color: #6E6E73;
+    width: 1160px;
+}
+.bread a:first-child {
+    background: url(../img/xzh/icon-home.jpg) no-repeat left center;
+    padding-left: 20px;
+}
+.bread a {
+    display: inline-block;
+}
+a {
+    color: #313131;
+    text-decoration: none;
+}
+.download-history ul {
+    padding-bottom: 50px;
+    min-height: 753px;
+}
+.download-history ul {
+    float: left;
+    width: 368px;
+    min-height: 600px;
+    background-color: #F7F7F7;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.download-history ul h1 {
+    font-family: helvetica;
+    font-size: 24px;
+    color: #a9a9a9;
+    padding: 25px 0;
+}
+.download-history ul li:nth-child(2) {
+    height: 235px;
+    width: 368px;
+    background: #F1F1F2 url(../img/xzh/download1.png) no-repeat center center;
+}
+.download-history a {
+    display: block;
+    width: 321px;
+    height: 48px;
+    margin: 0 auto;
+    border-bottom: 1px dotted #DADADA;
+    line-height: 48px;
+}
+a {
+    color: #313131;
+    text-decoration: none;
+}
+.download-history a span {
+    float: left;
+    color: #65A7EB;
+    font-size: 18px;
+}
+.download-history a p {
+    float: right;
+    background: url(../img/xzh/history.png) no-repeat left center;
+    padding-left: 20px;
+    color: #66666B;
+    font-size: 14px;
+}
+.download-history ul:nth-child(2) {
+    margin: 0 28px;
+}
+.download-history ul:nth-child(2) li:nth-child(2) {
+    height: 235px;
+    width: 368px;
+    background: #F1F1F2 url(../img/xzh/download2.png) no-repeat center center;
+}
+footer {
+    background: #2E3239;
+    color: #fff;
+    width: 100%;
+    height: 265px;
+    margin-top: 50px;
+}
+.footer-container {
+    width: 1160px;
+    margin: 0 auto;
+    height: 238px;
+}
+.footer-container ul {
+    float: left;
+    width: 170px;
+    margin-top: 50px;
+}
+ul {
+    list-style: none;
+}
+.footer-container ul li {
+    margin-bottom: 14px;
+}
+.footer-container ul li:nth-child(1) a {
+    color: #fff;
+    font-size: 18px;
+    cursor: default;
+}
+.footer-container ul a {
+    display: block;
+    color: #818285;
+    font-size: 14px;
+}
+a {
+    color: #313131;
+    text-decoration: none;
+}
+.footer-container ul li:nth-child(1) a {
+    color: #fff;
+    font-size: 18px;
+    cursor: default;
+}
+.footer-container ul a {
+    display: block;
+    color: #818285;
+    font-size: 14px;
+}
+.download-history{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+.yfoot{
+    clear: both;
+}
