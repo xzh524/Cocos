@@ -5,7 +5,7 @@ a{
 	margin:0px;
 	padding: 0px;
 }
-ul{
+ul,li{
 	list-style: none;
 }
 .box{
