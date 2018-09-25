@@ -1,0 +1,169 @@
+a{
+	text-decoration: none;
+}
+*{
+	margin:0px;
+	padding: 0px;
+}
+ul,li{
+	list-style: none;
+}
+.box{
+	width: 100%;
+	height: 82px;
+	position: relative;
+}
+.wd{
+	width: 100%;
+	position: relative;
+}
+.document-nav{
+	width: 100%;
+	height: 37px;
+	background-color: #343941;
+}
+.document-con{
+	width: 85%;
+	height: 37px;
+	margin:0 auto;
+}
+.document-con button{
+	width: 128px;
+	height: 36px;
+	line-height: 36px;
+	border: none;
+	display: inline-block;
+	background-color: #343941;
+	color: white;
+	float: left;
+}
+.document-con ul{
+	list-style: none;
+	float: right;
+}
+.document-con ul li{
+	width: 70px;
+	height: 36px;
+	line-height: 36px;
+	display: inline-block;
+	float: left;
+}
+.document-con ul li a:hover{
+	color:skyblue;
+}
+.document-con ul li a{
+	color: white;
+}
+.document-con button:hover{
+	background-color: #CCCCCC;
+}
+.document-cont{
+	width: 100%;
+}
+.document-cont-top{
+	width: 70%;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid gainsboro;
+}
+.document-cont-top-left{
+	width: 33%;
+	float: left;
+}
+.document-cont-top-right{
+	width: 66%;
+	height: 300px;;
+	/*border: 1px solid black;*/
+	float: left;
+}
+.document-cont-top-right ul{
+	list-style: none;
+}
+.document-cont-top-right ul li{
+	width: 49%;
+	height: 130px;
+	background:darkgray;
+	margin-top: 20px;
+	margin-left: 1%;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.document-cont-bto{
+	width: 70%;
+	height: 330px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+.document-cont-bto-left{
+	width: 33%;
+	float: left;
+}
+.document-cont-bto-right{
+	width: 66%;
+	height: 300px;;
+	/*border: 1px solid black;*/
+	float: left;
+}
+.document-cont-bto-right ul{
+	list-style: none;
+}
+.document-cont-bto-right ul li{
+	width: 49%;
+	height: 130px;
+	background:darkgray;
+	margin-top: 20px;
+	margin-left: 1%;
+	margin-bottom: 20px;
+	float: left;
+}
+.document-cont-top-right ul li:nth-child(1){
+	background:url(../img/wd/d-list.png) no-repeat left top;
+}
+.document-cont-top-right ul li:nth-child(1):hover{
+	background:url(../img/wd/d-list-current.png) no-repeat left top;
+}
+.document-cont-top-right ul li:nth-child(2){
+	background:url(../img/wd/d-list.png) no-repeat right top;
+}
+.document-cont-top-right ul li:nth-child(2):hover{
+	background:url(../img/wd/d-list-current.png) no-repeat right top;
+}
+.document-cont-top-right ul li:nth-child(3){
+	background:url(../img/wd/d-list.png) no-repeat left bottom;
+}
+.document-cont-top-right ul li:nth-child(3):hover{
+	background:url(../img/wd/d-list-current.png) no-repeat left bottom;
+}
+.document-cont-top-right ul li:nth-child(4){
+	background:url(../img/wd/d-list.png) no-repeat right bottom;
+}
+.document-cont-top-right ul li:nth-child(4):hover{
+	background:url(../img/wd/d-list-current.png) no-repeat content right;
+}
+.document-cont-bto-right ul li:nth-child(1){
+	background:url(../img/wd/d-list.png) no-repeat left top;
+}
+.document-cont-bto-right ul li:nth-child(1):hover{
+	background:url(../img/wd/d-list-current.png) no-repeat left top;
+}
+.document-cont-bto-right ul li:nth-child(2){
+	background:url(../img/wd/d-list.png) no-repeat right top;
+}
+.document-cont-bto-right ul li:nth-child(2):hover{
+	background:url(../img/wd/d-list-current.png) no-repeat right top;
+}
+.document-cont-bto-right ul li:nth-child(3){
+	background:url(../img/wd/d-list.png) no-repeat left bottom;
+}
+.document-cont-bto-right ul li:nth-child(3):hover{
+	background:url(../img/wd/d-list-current.png) no-repeat left bottom;
+}
+.document-cont-bto-right ul li:nth-child(4){
+	background:url(../img/wd/d-list.png) no-repeat right bottom;
+}
+.document-cont-bto-right ul li:nth-child(4):hover{
+	background:url(../img/wd/d-list-current.png) no-repeat content right;
+}

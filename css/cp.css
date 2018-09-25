@@ -1,0 +1,224 @@
+.product-tab {
+    width: 1160px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 82px;
+}
+.product-tab a.current {
+    text-decoration: none;
+    color: #6EACEC;
+}
+.product-tab a {
+    display: inline-block;
+    font-size: 24px;
+    font-family: Helvetica;
+    color: #2C3036;
+    width: 298px;
+    text-align: center;
+}
+.product-tab b {
+    display: inline-block;
+    height: 26px;
+    width: 1px;
+    background: #D8DEE3;
+    position: relative;
+    top: 4px;
+}
+.product-banner {
+    min-width: 1160px;
+    height: 330px;
+    background: #EBEEF1;
+} 
+.product-banner .w1160 {
+    height: 330px;
+    position: relative;
+}
+.w1160 {
+    width: 1160px;
+    margin: 0 auto;
+}
+.product-banner .img-c {
+    float: left;
+    width: 430px;
+    position: relative;
+    height: 330px;
+    overflow: hidden;
+}
+ .product-banner .img-c p {
+    position: absolute;
+    display: block;
+    width: 140px;
+    height: 600px;
+    top: -190px;
+    /* filter: url(blur.svg#blur); */
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=20, MakeShadow=false);
+    left: -40px;
+    background-image: linear-gradient(to left,rgba(235,238,241,.4) 0,rgba(235,238,241,.5) 5%,rgba(235,238,241,.6) 11% ,rgba(235,238,241,.7) 25%,rgba(235,238,241,1) 33%);
+}
+.product-banner img {
+    max-width: 420px;
+    height: auto;
+}
+.product-banner .img-c span {
+    display: inline-block;
+    right: -42px;
+    position: absolute;
+    width: 140px;
+    height: 600px;
+    top: -190px;
+    filter: blur(20px);
+    background-image: linear-gradient(to right,rgba(235,238,241,.4) 0,rgba(235,238,241,.5) 5%,rgba(235,238,241,.6) 11% ,rgba(235,238,241,.8) 30%,rgba(235,238,241,1) 60%);
+}
+.product-banner-info {
+    position: relative;
+    z-index: 10;
+    float: right;
+    width: 730px;
+}
+.product-banner-info h1 {
+    font-size: 48px;
+    color: #2C3036;
+    font-weight: bold;
+    margin: 30px 0 25px 0;
+    font-family: Helvetica;
+}
+.product-download-button {
+  /* border:1px solid red; */
+}
+.product-download-button a {
+    float: left;
+    height: 36px;
+    padding: 0 15px;
+    line-height: 36px;
+    background: #65A7EB;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.product-release-notes {
+    margin-top: 56px;
+}
+.w1160 {
+    width: 1160px;
+    margin: 0 auto;
+}
+.release-notes {
+    min-height: 82px;
+    border-left: 2px solid #EBEEF1;
+    margin-left: 194px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.release-notes .circle {
+    position: absolute;
+    left: -11px;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 4px solid #EBEEF1;
+    border-radius: 50%;
+}
+.release-notes .versions-time {
+    width: 168px;
+    height: 52px;
+    border: 1px solid #EBEEF1;
+    border-radius: 4px;
+    position: absolute;
+    top: -27px;
+    left: -196px;
+    font-size: 16px;
+    color: #2C3036;
+    line-height: 50px;
+    text-align: center;
+}
+.versions-details {
+    min-height: 52px;
+    width: 938px;
+    border-radius: 4px;
+    border: 1px solid #EBEEF1;
+    position: relative;
+    left: 26px;
+    top: -26px;
+}
+.view-more-versions {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: url(http://www.cocos.com/wp-content/themes/cocos/img/add.png) no-repeat center center;
+}
+.direction-l {
+    position: absolute;
+    left: -12px;
+    top: 15px;
+}
+.versions-title {
+    height: 50px;
+    line-height: 50px;
+    color: #65A7EB;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 18px;
+}
+.versions-describe {
+    padding-top: 15px;
+}
+.versions-describe {
+    padding-top: 15px;
+    width: 904px;
+    margin: 0 auto;
+    border-top: 1px dotted #EBEEF1;
+    padding-bottom: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 16px;
+    color: #626262;
+    margin-left: 40px;
+}
+.blog_content h5{
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    line-height: 1.2353;
+    text-transform: uppercase;
+    clear: both;
+    font-weight: 700;
+    margin: 56px 0 28px;
+}
+.blog_content strong {
+    font-weight: bold;
+    margin: 20px 0;
+}
+.blog_content h3 {
+    font-size: 24px;
+    line-height: 1.1667;
+}
+.blog_content h4 {
+    /* font-size: 16px; */
+    /* font-weight: bold; */
+    margin: 20px 0;
+    /* color: #66666B; */
+    font-size: 20px;
+    line-height: 1.4;
+    clear: both;
+    font-weight: 700;
+}
+.blog_content ul {
+    list-style: disc !important;
+    padding-left: 20px;
+}
+.blog_content ul, .blog_content ol {
+    margin: 0 0 28px 0;
+    padding: 0;
+}

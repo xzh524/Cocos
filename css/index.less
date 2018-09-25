@@ -1,0 +1,596 @@
+.headerbg{
+  height: 30px;
+  background: #f5f5f5;
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  border: 0;
+  padding: 0 20px !important;
+  min-width: 1160px;
+  .wrap{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    border: 0;
+    zoom: 1;
+    clear: both;
+    height: 30px;
+    h1{
+      float: left;
+      height: 30px;
+      font-weight: normal;
+      margin: 0;
+      font-size: 16px;
+      a{
+        text-decoration: none;
+        color: #292929;
+        font-family: "Microsoft Yahei";
+        font-size: 12px;
+        line-height: 30px;
+        span{
+          font-size: 14px;
+          color: #292929;
+        }
+      }
+    }
+    .box{
+      a{
+        margin-left: 10px;
+        float: right;
+        color: #666;
+        font-family: "Microsoft Yahei";
+        font-size: 12px;
+        text-decoration: none;
+        line-height: 30px;
+      }
+      span{
+        margin-left: 10px;
+        margin-top: 9px;
+        height: 12px;
+        border-left: 1px solid #cfcece;
+        float: right;
+      }
+    }
+  }
+}
+
+
+header{
+  top: 30px;
+  opacity: 0;
+  position: fixed;
+  z-index: -100;
+  transition: all ease-in .15s;
+  height: 82px;
+  width: 100%;
+  text-align: center;
+  background-color: #262B32;
+  .head{
+    height: 82px;
+    .head_container{
+      margin: 0 auto;
+      width: 1160px;
+      height: 82px;
+      &>a{
+        float: left;
+        position: relative;
+        top: 20px;
+      }
+      .language{
+        float: right;
+        width: 26px;
+        height: 26px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 26px;
+        color: #fff;
+        border-radius: 50%;
+        background-color: #65A7EB;
+        position: relative;
+        top: 27px;
+      }
+      .m-menu{
+        display: none;
+      }
+      .nav{
+        float: right;
+        height: 82px;
+        line-height: 82px;
+        li{
+          float: left;
+          height: 72px;
+          text-align: center;
+          a{
+            display: block;
+            width: 120px;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none;
+            &.current {
+              background-color: #1B2028;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.banner{
+  position: relative;
+  min-width: 1160px;
+  height: 630px;
+  background: #3B5B8B url('http://www.cocos.com/wp-content/themes/cocos/img/banner-bg2.jpg') no-repeat center center;
+  .swiper-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+  .header-bottm-container{
+    margin: 0 auto;
+    width: 1160px;
+    height: 82px;
+    &>a {
+      float: left;
+      position: relative;
+      top: 20px;
+    }
+    .language{
+      float: right;
+      width: 26px;
+      height: 26px;
+      font-size: 14px;
+      text-align: center;
+      line-height: 26px;
+      color: #fff;
+      border-radius: 50%;
+      background-color: #65A7EB;
+      position: relative;
+      top: 27px;
+    }
+    .nav{
+      position: relative;
+      z-index: 100;
+      float: right;
+      height: 82px;
+      line-height: 82px;
+      li{
+        width: 120px;
+        float: left;
+        height: 72px;
+        text-align: center;
+        a{
+          color: #eee;
+          padding: 13px 3px;
+          text-transform: uppercase;
+          border-bottom: solid 2px transparent;
+          display: inline;
+          text-align: center;
+          -moz-transition-property: all;
+          -o-transition-property: all;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -moz-transition-duration: 0.6s;
+          -o-transition-duration: 0.6s;
+          -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+          width: 120px;
+          font-size: 12px;
+          &:hover{
+            color: #ffffff;
+            background-color: rgba(0,0,0,0);
+            border-bottom-color: #fff;
+            display: inline;
+            text-decoration: none;
+            padding-bottom: 6px;
+          }
+        }
+      }
+    }
+  }
+  .banner-container {
+    position: relative;
+    z-index: 1;
+    width: 1160px;
+    height: 200px;
+    text-align: right;
+    margin: 134px auto 0 auto;
+    img{
+      opacity: 1;
+      transform: translate(0px, 0px);
+      display: block;
+      margin-left: 798px;
+      margin-bottom: 20px;
+      transition: all .6s;
+      -webkit-transition: all .6s;
+    }
+    &>a{
+      display: inline-block;
+      width: 165px;
+      height: 48px;
+      border: 1px solid #fff;
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      line-height: 48px;
+      margin-left: 30px;
+      &:hover{
+        text-decoration: none;
+        background: #2c3036;
+        border: 1px solid #2c3036;
+        color: #fff;
+      }
+    }
+    .show-ani{
+      opacity: 1;
+      transform: translate(0px, 0px);
+      transition: all .6s;
+      -webkit-transition: all .6s;
+    }
+  }
+}
+
+
+.cocos-creator{
+  min-width: 1160px;
+  width: 100%;
+  background: #FAFCFF;
+  text-align: center;
+  padding-top: 50px;
+  .cocos-creator-container{
+    -webkit-perspective: 500;
+    width: 1160px;
+    margin: 0 auto;
+    h2{
+      font-size: 30px;
+      font-weight: bold;
+      font-family: Helvetica;
+      color: #2E3239;
+    }
+    h1{
+      font-size: 38px;
+      color: #2E3239;
+      margin: 5px 0 20px;
+    }
+    h4{
+      font-size: 18px;
+      color: #66666b;
+      font-weight: normal;
+      margin-bottom: 40px;
+    }
+    .myswiper{
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      .swiper-button-left, .swiper-button-right{
+        width: 360px;
+        height: 304px;
+        background: transparent;
+        position: absolute;
+        top: 0;
+        z-index: 500;
+      }
+    }
+    a{
+      display: block;
+      width: 188px;
+      height: 48px;
+      color: #2E3239;
+      border: 1px solid #2E3239;
+      text-align: center;
+      line-height: 48px;
+      font-size: 18px;
+      transition: all .6s;
+      -webkit-transition: all .6s;
+      -moz-transition: all .6s;
+      margin: 50px auto;
+      &:hover{
+        text-decoration: none;
+        background: #2c3036;
+        border: 1px solid #2c3036;
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+.cocos2d-x{
+  min-width: 1160px;
+  overflow: hidden;
+  width: 100%;
+  height: 630px;
+  background: #58A1F0 url('http://www.cocos.com/wp-content/themes/cocos/img/cocos2d-x-bg.jpg') center center;
+  text-align: center;
+  .cocos2d-x-container {
+    opacity: 1;
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    background: url('http://www.cocos.com/wp-content/themes/cocos/img/cocos2d-x-bg.png') center -10px;
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 40px;
+    h2{
+      font-size: 30px;
+      font-weight: bold;
+      font-family: Helvetica;
+      color: #2E3239;
+    }
+    h1{
+      font-size: 38px;
+      color: #2E3239;
+      margin: 5px 0 20px;
+    }
+    h4{
+      margin-bottom: 70px;
+      font-size: 18px;
+      color: #66666b;
+      font-weight: normal;
+    }
+  }
+  img{
+    opacity: 0;
+    margin: 0 auto;
+  }
+  a{
+    color: #fff;
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    display: block;
+    width: 188px;
+    height: 48px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    margin: 70px auto 0 auto;
+    &:hover{
+      text-decoration: none;
+      background: #2c3036;
+      border: 1px solid #2c3036;
+      color: #fff;
+    }
+  }
+}
+
+.hot-blog{
+  min-width: 1160px;
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+  .hot-blog-container{
+    width: 1160px;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    &>a{
+      display: block;
+      width: 188px;
+      height: 48px;
+      border: 1px solid #2E3239;
+      color: #2E3239;
+      font-size: 18px;
+      line-height: 48px;
+      text-align: center;
+      margin: 25px auto  0 auto;
+      transition: all .6s;
+      -webkit-transition: all .6s;
+      -moz-transition: all .6s;
+      &:hover{
+        text-decoration: none;
+        background: #2c3036;
+        border: 1px solid #2c3036;
+        color: #fff;
+      }
+    }
+    h1{
+      font-size: 40px;
+      color: #2E3239;
+      font-weight: normal;
+    }
+    .sub-hx{
+      width: 50px;
+      height: 5px;
+      background-color: #2E3239;
+      margin: 15px auto;
+    }
+    ul{
+      display: inline-block;
+      li{
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+        float: left;
+        position: relative;
+        margin: 25px 0;
+        &:nth-child(2),&:nth-child(5){
+          margin: 25px;
+        }
+        a {
+          height: 220px;
+          display: block;
+          width: 370px;
+          position: relative;
+          z-index: 10;
+          overflow: hidden;
+          &:hover img{
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            transform: scale(1.2);
+          }
+          &:hover div{
+            top: 0;
+            padding-top: 70px;
+          }
+          img{
+            width: 370px;
+            height: auto;
+            -webkit-transform: scale(1.0);
+            -moz-transform: scale(1.0);
+            -o-transform: scale(1.0);
+            transform: scale(1.0);
+            transition: all .6s;
+            -webkit-transition: all .6s;
+            -moz-transition: all .6s;
+            -webkit-transform-origin: center;
+            -moz-transform-origin: center;
+            transform-origin: center;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+          }
+          div{
+            background-color: rgba(0,0,0,0.6);
+            padding: 25px;
+            height: 220px;
+            width: 370px;
+            position: relative;
+            z-index: 10;
+            top: 155px;
+            transition: all ease-in .3s;
+            h2{
+              font-size: 14px;
+              font-weight: normal;
+              color: #fff;
+              margin-bottom: 20px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+            p{
+              color: #fff;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.partner{
+  overflow: hidden;
+  min-width: 1160px;
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+  .partner-container{
+    width: 1160px;
+    margin: 0 auto;
+    text-align: center;
+    h1{
+      font-size: 40px;
+      color: #2E3239;
+      font-weight: normal;
+    }
+    .sub-hx{
+      width: 50px;
+      height: 5px;
+      background-color: #2E3239;
+      margin: 15px auto;
+    }
+    ul{
+      display: inline-block;
+      li{
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        float: left;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        a {
+          display: block;
+          width: 200px;
+          height: 110px;
+          background: url('http://www.cocos.com/wp-content/themes/cocos/img/partner.png') no-repeat left top;
+          &:hover{
+            background: url('http://www.cocos.com/wp-content/themes/cocos/img/partner-h.png') no-repeat left top;
+          }
+        }
+        &:nth-child(2) a{
+          background-position: -240px 0;
+          &:hover{
+            background-position: -240px 0;
+          }
+        }
+        &:nth-child(3) a{
+          background-position: -480px 0;
+          &:hover{
+            background-position: -480px 0;
+          }
+        }
+        &:nth-child(4) a{
+          background-position: -720px 0;
+          &:hover{
+            background-position: -720px 0;
+          }
+        }
+        &:nth-child(5){
+          margin-right: 0;
+          a{
+            background-position: -960px 0;
+            &:hover{
+              background-position: -960px 0;
+            }
+          }
+        }
+        &:nth-child(6) a{
+          background-position: 0 -150px;
+          &:hover{
+            background-position: 0 -150px;
+          }
+        }
+        &:nth-child(7) a{
+          background-position: -240px -150px;
+          &:hover{
+            background-position: -240px -150px;
+          }
+        }
+        &:nth-child(8) a{
+          background-position: -480px -150px;
+          &:hover{
+            background-position: -480px -150px;
+          }
+        }
+        &:nth-child(9) a{
+          background-position: -720px -150px;
+          &:hover{
+            background-position: -720px -150px;
+          }
+        }
+        &:nth-child(10){
+          margin-right: 0;
+          a{
+            background-position: -960px -150px;
+            &:hover{
+              background-position: -960px -150px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
